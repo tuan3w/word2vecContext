@@ -14,13 +14,13 @@ A sample use Word2Vec algorithm to learn tree context
 ```
 ### Return similarity between nodes
 ```python
->>> model.similarity(‘A00001/B00001/C00001/D00001’, ‘A00001/B00001/C00001’)
+>>> model.similarity('A00001/B00001/C00001/D00001', 'A00001/B00001/C00001')
 0.79696112054196411
 >>>
->>> model.similarity(‘A00001/B00001/C00001’, ‘A00001/B00001’)
+>>> model.similarity('A00001/B00001/C00001', 'A00001/B00001')
 0.21759983914124154
 >>>
->>> model.similarity(‘A00001/B00001’,’A00001’)
+>>> model.similarity('A00001/B00001','A00001')
 0.067202490397546139
 ```
 
