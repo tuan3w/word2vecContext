@@ -3,7 +3,8 @@ A sample use Word2Vec algorithm to learn tree context
 
 ## Some results
 ------
-return most similar node:
+
+#### Return most similar node:
 ```python
 >>> model.most_similar('A00001/B00001/C00001/D00001')
 [('A00001/B00001/C00001/D00002', 0.9907678365707397), ('A00001/B00001/C00001/D00003', 0.9883657097816467), ('A00001/B00001/C00001/D00004', 0.9816274046897888), 
