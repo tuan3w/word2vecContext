@@ -10,7 +10,6 @@ import pdb
 from gensim.models.word2vec import Word2Vec
 
 def main():
-    sentences = KDDCorpus('./dat2', './data2')
     sentences = TreeContextCorpus(maxA=2, maxB=3, maxC=10, maxD=10)
     logging.info('Learning Word2Vec model')
     model =Word2Vec(sentences,      #dataset
